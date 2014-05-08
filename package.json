@@ -1,6 +1,7 @@
 {
     "name": "bim_1_5",
     "version": "0.0.1",
+    "repository" : "https://github.com/pkmnfrk/bim_2_0",
     "dependencies": {
         "node-static": "*"
     }
