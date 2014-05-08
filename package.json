@@ -1,0 +1,7 @@
+{
+    "name": "bim_1_5",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-static": "*"
+    }
+}

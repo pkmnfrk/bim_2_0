@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    font-family: "Verdana", sans-serif;
+}
+
+#screen {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background-color: #ddf;
+    overflow: hidden;
+}
+
+#drug {
+    position: absolute;
+    
+    top: 50%;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    
+    border: 5px dashed #f66;
+    
+    background-color: #f88;
+}
+
+#drug.filled {
+    background-color: #f44;
+}
+
+h1 {
+    
+    text-align: center;
+        
+        
+}
+
+ul#cards {
+    position: absolute;
+    
+    top: 5px;
+    left: 5px;
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    
+    border-spacing: 30px;
+    
+}
+
+#card-picker {
+    background-color: #bbb;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    opacity: 0.9;
+    
+    z-index: 100;
+    top: 100%;
+    
+    border: 2px solid black;
+    
+}
+
+#card-picker ul {
+    border-spacing: 5px;
+}
+
+ul#cards li, #card-picker li {
+    width: 120px;
+    height: 110px;
+    display: table-cell;
+    border: 1px solid black;
+    z-index: 100;
+    background-color: #fff;
+    margin: 6px;
+    padding-top: 10px;
+    
+    text-align: center;
+    
+    float:left;
+    
+}
+
+#cost {
+    position: absolute;
+    font-size: 30pt;
+    bottom: 52%;
+    left: 10px;
+}
+
+#roi {
+    position: absolute;
+    font-size: 30pt;
+    bottom: 52%;
+    right: 10px;
+}
+
+
+#cost .k, #roi .k {
+    border-bottom: 1px solid black;
+}
+
+#effectiveness {
+    position:absolute;
+        
+    top: 45%;
+    bottom: 50%;
+    left: 25%;
+    right: 25%;
+    
+    
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+#card-picker li.selected {
+    background-color: #bfb;
+}
